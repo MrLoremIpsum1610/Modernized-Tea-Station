@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+.spaced{
+  background: linear-gradient(to left, #678e3e, #e9b949, #678e3e);
+}
+
+@layer components{
+    .about-tease{
+        /* @apply flex justify-center items-center flex-col text-center
+         */
+        @apply text-center px-8 pt-9 pb-7 capitalize font-bold text-base max-w-96 bg-bgc-grid rounded-md
+    }
+    .Tea-Widest{
+        @apply tracking-TeaWide
+    }
+    .underliness{
+        @apply block w-7/12 bg-btn-color h-[2px] my-0 mx-auto mt-9  transition-all duration-300  ease-out 
+    }
+    .changeColorTransition{
+        @apply transition-all hover:bg-[#beed8c] duration-300 ease-in-out
+    }
+
+}

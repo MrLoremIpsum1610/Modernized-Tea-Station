@@ -1,0 +1,137 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Station || Home </title>
+    <link rel="stylesheet" href="{%static 'styles/app.css'%}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
+
+</head>
+<body class="w-full">
+    <header class="flex justify-center bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../images/main-bcg.jpeg')] bg-center bg-cover bg-no-repeat bg-fixed h-[100vh]">
+
+        <div class="text-white flex flex-col justify-center items-center Tea-Widest">
+            <h2 class="font-grand-hotel font-bold text-6xl text-btn-color Tea-Widest text-center max-sm:text-5xl">
+                Over one hundred flavors of
+            </h2>
+            <h1 class="font-bold font-catmaran text-6xl Tea-Widest uppercase text-center my-8 max-sm:text-5xl">
+                specially
+                <br>
+                crafted tea
+            </h1>
+            <a href="#" class="rounded-lg text-xl animate-show bg-btn-color py-4 px-7 outline outline-[0.125rem] outline-btn-color outline-offset-2 font-catmaran font-bold Tea-Widest uppercase changeColorTransition">explore</a>
+        </div>
+    </header>
+
+
+
+
+
+    <main class="">
+        <div class="spaced h-2"></div>
+        <!-- Grid Attributes -->
+         
+        <div class="container mx-auto my-0 max-xl:px-2 xl:px-10">
+            
+            <div class="md:grid md:justify-items-center md:grid-cols-2 md:grid-rows-2 max-lg:gap-10 lg:gap-y-14 xl:grid-cols-4 xl:gap-10 xl:justify-center xl:grid-rows-1 mt-8 max-md:flex max-md:justify-center max-md:items-center max-md:flex-wrap">
+                <div class="about-tease !font-catmaran onHover shadow-md shadow-slate-950/10">
+                    <h4 class="tracking-[0.18em]">made in US</h4>
+                    <p class="font-normal mt-3 text-parColor">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, officiis?</p>
+                    <span class="underliness underLines"></span>
+                </div>
+                <div class="about-tease !font-catmaran onHover shadow-md shadow-slate-950/10">
+                    <h4 class="tracking-[0.18em]">relaxation</h4>
+                    <p class="font-normal mt-3 text-parColor">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, officiis?</p>
+                    <span class="underliness underLines"></span>
+                </div>
+                <div class="about-tease !font-catmaran onHover shadow-md shadow-slate-950/10">
+                    <h4 class="tracking-[0.18em]">energy</h4>
+                    <p class="font-normal mt-3 text-parColor">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, officiis?</p>
+                    <span class="underliness  underLines"></span>                    
+                </div>
+                <div class="about-tease !font-catmaran onHover shadow-md shadow-slate-950/10">
+                    <h4 class="tracking-[0.18em]">family recipe</h4>
+                    <p class="font-normal mt-3 text-parColor">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, officiis?</p>
+                    <span class="underliness underLines"></span>                    
+                </div>
+            
+            </div>
+        </div>
+        <!-- About us -->
+        <div class="container mx-auto my-0 py-0 px-16 2xl:px-28 max-ssm:px-8 mb-18">
+            <div class="lg:grid lg:justify-between lg:grid-cols-2 lg:grid-rows-1 lg:items-center lg:gap-32 mt-24 flex flex-col-reverse items-center max-lg:gap-7 ">
+                <div class="flex justify-center">
+                    <img src="{% static 'images/about-bcg.jpeg'%}" alt="" class="md:max-w-[32rem] sm:w[29rem] w-full ssm:max-w-80">
+                </div>
+                <div class="flex justify-end">
+                    <div class="max-w-[33rem] flex flex-col items-start max-lg:justify-center max-lg:text-center max-lg:items-center">
+                        <div class="font-grand-hotel font-bold Tea-Widest">
+                            <h3 class="text-x-8 text-btn-color">about us</h3>
+                            <h2 class="text-x-10 mb-5 font-catmaran Tea-Widest ">Tea Station</h2>
+                        </div>
+                        <div class="font-catmaran lg:text-sm text-parColor max-lg:text-base sm:text-base max-sm:!text-sm">
+                            <p class="mb-3">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, nisi adipisci. Animi molestiae rem tempore?
+                            </p>
+                            <p class="mb-3">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, nisi adipisci. Animi molestiae rem tempore?
+                            </p>
+                        </div>
+                        <a href="#" class="changeColorTransition uppercase bg-btn-color text-white py-[6px] px-3 rounded-md shadow-slate-950/30 shadow-lg mt-3 font-catmaran">
+                        learn more
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Products-->
+         <div class="bg-bgc-grid py-16 shadow-md shadow-slate-950/10">
+            <div class="container mx-auto my-0 py-0 px-16 2xl:px-32 max-ssm:px-8 max-lg:px-8">
+                <div class="flex flex-wrap items-center justify-between max-xl:gap-18 max-xl:justify-center max-xl:flex-col">
+                    <div class="capitalize max-xl:text-center ">
+                        <div class="mb-6">
+                            <h3 class="font-grand-hotel font-semibold text-x-10 text-btn-color border-black">check out</h3>
+                            <h2 class="font-catmaran tracking-TeaWide font-bold mb-3 text-x-8">our products</h2>
+                        </div>
+                        <p class="mb-5 text-parColor max-w-96 max-xl:max-w-[30rem]">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum vel quia nam, fuga ea mollitia quod expedita pariatur totam exercitationem iure perspiciatis repellendus officia porro.
+                        </p>
+                        <a href="" class="changeColorTransition text-white tracking-TeaWide font-catmaran font-semibold text-sm bg-btn-color px-3 py-[6px] rounded-md uppercase">Inventory</a>
+                    </div>
+                    <div class="img-grid">
+                        <div class="grid grid-cols-3 gap-8 max-xl:text-center max-md:flex max-md:flex-wrap max-md:justify-center">
+                            <div class="overflow-hidden rounded-md font-catmaran font-semibold tracking-widest capitalize">
+                              <img src="{% static 'images/product-1.jpeg'%}" alt="" class=" max-md:w-64 w-56 mb-8 rounded-xl h-72 object-cover">
+                              <h4 class="">ginger peach tea</h4>
+                              <h4 class="text-btn-color">$6.99</h4>
+                            </div>
+
+                            <div class="overflow-hidden rounded-md font-catmaran font-semibold tracking-widest capitalize">
+                              <img src="{% static 'images/product-2.jpeg'%}" alt="" class=" max-md:w-64 w-56 mb-8 rounded-xl h-72 object-cover">
+                              <h4 class="">fruit sangria</h4>
+                              <h4 class="text-btn-color">$6.99</h4>
+                            </div>
+
+                            <div class="overflow-hidden rounded-md font-catmaran font-semibold tracking-widest capitalize">
+                              <img src="{% static 'images/product-3.jpeg'%}" alt="" class=" max-md:w-64 w-56 mb-8 rounded-xl h-72 object-cover">
+                              <h4 class="">white tea</h4>
+                              <h4 class="text-btn-color">$6.99</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+
+
+    </main>
+    <footer class="m-12"></footer>
+    <script src="{%static 'js/app.js'%}"></script>
+</body>
+</html>
