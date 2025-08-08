@@ -24,3 +24,9 @@ django-debug-toolbar>=4.3.0
 ipython>=8.25.0
 black>=24.4.2
 flake8>=7.0.0
+gunicorn
+Django>=5.0,<6.0
+gunicorn
+whitenoise
+psycopg2-binary
+
