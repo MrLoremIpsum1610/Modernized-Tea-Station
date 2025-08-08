@@ -128,3 +128,15 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'myapp/static'),
 ]
+import os
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [
+    BASE_DIR / "static",  # این مسیر باید وجود داشته باشه
+]
+
+STATIC_ROOT = BASE_DIR / "staticfiles"  # محل جمع‌آوری استاتیک‌ها برای پروداکشن
