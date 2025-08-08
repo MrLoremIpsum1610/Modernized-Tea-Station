@@ -10,7 +10,18 @@
   background: linear-gradient(to left, #678e3e, #e9b949, #678e3e);
 }
 
+
+
 @layer components{
+    .InputStyle{
+        @apply shadow-sm shadow-black/15 rounded-lg bg-bgc-grid px-4 py-3 w-full
+    }
+    .FlexCol{
+        @apply flex flex-col items-center
+    }
+    .FlexRow{
+        @apply flex flex-row items-center
+    }
     .about-tease{
         /* @apply flex justify-center items-center flex-col text-center
          */

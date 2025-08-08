@@ -9,6 +9,7 @@ darkMode: 'class',
         'btn-color':'#678e3e;',
         'parColor':"#4c667f",
         'bgc-grid':'#f1f5f8',
+        'BlackMetalical':'#222'
       },
       letterSpacing:{
         "TeaWide":"0.29rem"

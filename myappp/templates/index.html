@@ -12,13 +12,14 @@
 
 </head>
 <body class="w-full">
+<body class="w-full">
     <header class="flex justify-center bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../images/main-bcg.jpeg')] bg-center bg-cover bg-no-repeat bg-fixed h-[100vh]">
 
         <div class="text-white flex flex-col justify-center items-center Tea-Widest">
-            <h2 class="font-grand-hotel font-bold text-6xl text-btn-color Tea-Widest text-center max-sm:text-5xl">
+            <h2 class="font-grand-hotel font-bold text-6xl text-btn-color Tea-Widest text-center max-sm:text-5xl animate-slideFromRight">
                 Over one hundred flavors of
             </h2>
-            <h1 class="font-bold font-catmaran text-6xl Tea-Widest uppercase text-center my-8 max-sm:text-5xl">
+            <h1 class="font-bold font-catmaran text-6xl Tea-Widest uppercase text-center my-8 max-sm:text-5xl animate-slideFromLeft">
                 specially
                 <br>
                 crafted tea
@@ -128,7 +129,7 @@
             </div>
          </div>
          <!-- Services -->
-         <div class="container-c px-12 max-ssm:px-6 max-sm:px-8">
+         <div class="container-c px-12 2xl:px-32 max-ssm:px-6 max-sm:px-8">
             <div class="text-center pt-28">
                 <h3 class="midTitle-Component">
                     Explore
@@ -139,7 +140,7 @@
             </div>
             <div class="lg:grid lg:grid-cols-3 pt-12 justify-between xl:gap-9 max-xl:gap-7 max-lg:flex max-lg:flex-wrap max-lg:justify-between">
                 <div class="wrapSetting-Services">
-                    <div class="relative">
+                    <div class="relative w-[120%]">
                         <img src="./images/product-1.jpeg" alt="" class="w-full">
                         <span class="absolute left-2/4 right-2/4 -translate-x-2/4 -translate-y-2/4 block w-[27px] h-3 bg-bgc-grid rounded-[71%] "> 
                             <span class="block mx-auto my-0.5  w-5 h-2.5 rounded-[60%] bg-[#beed8c] outline outline-[#beed8c] outline-offset-2 outline-2"></span>
@@ -161,7 +162,7 @@
 
                 </div>
                 <div class="wrapSetting-Services">
-                    <div class="relative">
+                    <div class="relative w-[120%]">
                         <img src="./images/product-1.jpeg" alt="" class="w-full">
                         <span class="absolute left-2/4 right-2/4 -translate-x-2/4 -translate-y-2/4 block w-[27px] h-3 bg-bgc-grid rounded-[71%] "> 
                             <span class="block mx-auto my-0.5  w-5 h-2.5 rounded-[60%] bg-[#beed8c] outline outline-[#beed8c] outline-offset-2 outline-2"></span>
@@ -183,7 +184,7 @@
 
                 </div>
                 <div class="wrapSetting-Services">
-                    <div class="relative">
+                    <div class="relative w-[120%]">
                         <img src="./images/product-1.jpeg" alt="" class="w-full">
                         <span class="absolute left-2/4 right-2/4 -translate-x-2/4 -translate-y-2/4 block w-[27px] h-3 bg-bgc-grid rounded-[71%] "> 
                             <span class="block mx-auto my-0.5  w-5 h-2.5 rounded-[60%] bg-[#beed8c] outline outline-[#beed8c] outline-offset-2 outline-2"></span>
@@ -203,15 +204,82 @@
 
                     </div>
 
+                </div>
+
+            </div>
+         </div>
+
+
+         <!-- Contact us -->
+         <div class="bg-bgc-grid mt-18">
+            <div class="container-c tracking-TeaWide px-0">
+                <div class="lg:grid lg:grid-cols-2 max-lg:justify-center items-start capitalize px-4 py-16 max-lg:flex-wrap max-lg:items-center max-lg:grid-cols-1 max-lg:grid-rows-2">
+                    <div class="flex items-start flex-col capitalize max-lg:text-center max-lg:items-center mb-16">
+                        <div class="">
+                          <h4 class="title-Component text-xl max-ssm:text-base font-medium mb-1.5 text-btn-color">
+                            address
+                          </h4>
+                          <h4 class="title-Component text-xl max-ssm:text-base font-semibold mb-6">
+                            State/province/area:
+                            <br>
+                            North Carolina
+                          </h4>
+                        </div>
+
+                        <div class="">
+                          <h4 class="title-Component text-xl max-ssm:text-base font-medium mb-1.5 text-btn-color">
+                            email
+                          </h4>
+                          <h4 class="title-Component text-xl max-ssm:text-base font-semibold mb-6">
+                            mememe@meme.meme
+                          </h4>
+                        </div>
+
+                        <div class="">
+                          <h4 class="title-Component text-xl max-ssm:text-base font-medium mb-1.5 text-btn-color">
+                            phone
+                          </h4>
+                          <h4 class="title-Component text-xl max-ssm:text-base font-semibold mb-6">
+                            + 987 654 321 000
+                          </h4>
+                        </div>
+                    </div>
+
+                    <!-- Forms -->
+
+                    <div class="bg-white flex flex-col items-center justify-between px-0 pt-4 rounded-lg transition-all duration-500 hover:scale-105">
+                        <h3 class="p-5 mb-1 title-Component text-x-8 font-medium text-parColor">Contact US</h3>
+                        <form class="FlexCol gap-0 w-full">
+                            <div class="FlexCol items-start gap-5 pb-4 w-full px-7">
+                              <input type="text" placeholder="Steve Jobs" class="InputStyle" name="name">
+                              <input type="email" placeholder="email" class="InputStyle" name="email">
+                              <textarea name="message" placeholder="message" class="InputStyle h-2/3 mb-6 " rows="10"></textarea>
+                            </div>
+                        </form>
+                        <button type="submit" class="btn-sm w-full py-4 px-4 rounded-t-none uppercase text-sm hover:bg-[#beed8c] hover:text-btn-color transition-all duration-300 ease-linear">submit here</button>
+                    </div>
                 </div>
             </div>
          </div>
 
 
 
-
     </main>
-    <footer class="m-12"></footer>
+    
+
+    <footer class="bg-BlackMetalical text-white">
+        <div class="container-c uppercase text-base py-16">
+          <p class="font-catmaran tracking-TeaWide text-center my-0 mx-auto">
+            © 2025
+            <span class="text-btn-color">
+                tea station
+            </span>
+            all rights reserved
+          </p>
+        </div>
+
+
+    </footer>
     <script src="{%static 'js/app.js'%}"></script>
 </body>
 </html>
