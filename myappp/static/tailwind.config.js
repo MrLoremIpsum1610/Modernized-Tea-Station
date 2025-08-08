@@ -7,8 +7,8 @@ darkMode: 'class',
     extend: {
       colors:{
         'btn-color':'#678e3e;',
-        'parColor':"#6b7280",
-        'bgc-grid':'oklch(92.9% 0.013 255.508)',
+        'parColor':"#4c667f",
+        'bgc-grid':'#f1f5f8',
       },
       letterSpacing:{
         "TeaWide":"0.29rem"
