@@ -19,15 +19,11 @@ Clone the project
 
 Go to the project directory
 
-```bash
-  cd demo
-```
-
 
 Start the server
 
 ```bash
-  python manager.py runserver
+  python manage.py runserver
 ```
 
 
